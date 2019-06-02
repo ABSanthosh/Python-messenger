@@ -5,7 +5,7 @@ global ik
 ans="y"
 while ans=="y"or ans=="Y":
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
-    mail.login('mail1', 'mail1pass')#edit
+    mail.login('mail1', 'mail1pass')#edit and put your email id
     mail.list() 
     mail.select('inbox') 
     result, data = mail.uid('search', None, '(FROM "mail2")')#edit
