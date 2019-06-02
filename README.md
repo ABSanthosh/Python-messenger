@@ -4,10 +4,6 @@ A creative  way to send and receive messages through mails. You just need 2 mail
 # Objective
 1. Send message and recive it over email.
 2. Chat history will be stored in user's new email address 
-
-# Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages.
-
  
 # Run Locally
 1. Method-1
